@@ -76,7 +76,7 @@ Prerequisites:
 Step‑by‑step:
 
 1. Clone the repository
-   git clone https://github.com/phabel-LD/scPyPortal.git
+   git clone [https://github.com/yourusername/scPyPortal.git](https://github.com/phabel-LD/scPyPortal.git)
    cd scPyPortal
 
 2. Create and activate a virtual environment
