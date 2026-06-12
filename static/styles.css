@@ -1,0 +1,92 @@
+/* scPyPortal Custom Styles */
+
+/* Main layout */
+.main-content {
+    padding: 20px;
+}
+
+.dataset-info {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #007bff;
+}
+
+.analysis-controls {
+    margin-top: 20px;
+}
+
+.export-preview {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.export-preview-container {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* Custom value boxes */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Plot containers */
+.plot-container {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Sidebar enhancements */
+.sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+}
+
+/* Button enhancements */
+.btn-primary {
+    background-color: #366092;
+    border-color: #2a4a7a;
+}
+
+.btn-primary:hover {
+    background-color: #2a4a7a;
+    border-color: #1e3558;
+}
+
+/* Table styles */
+.data-grid {
+    font-size: 0.9em;
+}
+
+/* Loading states */
+.shiny-loading-message {
+    color: #366092;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 10px;
+    }
+    
+    .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+    }
+}
+
+/* Custom badges */
+.badge-module {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.25em 0.4em;
+    border-radius: 0.25rem;
+    font-size: 0.75em;
+}

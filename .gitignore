@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Shiny / app
+shinyapp.log
+.rsconnect/
+
+# Caché de la app (importante: no subir datasets grandes)
+cache/
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales
+temp/
+*.tmp
+*.log
+
+# Datos grandes (opcional, pero recomendado)
+*.h5ad
+*.h5mu
+*.h5
+*.loom
+
+# Excel y Power
+*.xlsx
+*.pbix
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
