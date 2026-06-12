@@ -1,0 +1,15 @@
+shiny>=0.4.0
+plotly>=5.15.0
+scanpy>=1.9.0
+muon>=0.1.0
+anndata>=0.9.0
+sqlmodel>=0.0.8
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.2.0
+scipy>=1.9.0
+statsmodels>=0.13.0
+openpyxl>=3.0.0
+python-multipart>=0.0.6
+aiofiles>=23.0.0
+psutil>=5.9.0
