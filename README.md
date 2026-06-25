@@ -1,7 +1,7 @@
 scPyPortal v1 – Interactive Single‑Cell Analysis Platform
 ================================================================
 
-scPyPortal is a full‑featured, interactive web application for single‑cell RNA‑seq (scRNA‑seq) and multi‑omics data analysis, built with Shiny for Python, Scanpy, Muon, and Plotly. It provides a point‑and‑click interface to perform quality control, clustering, differential expression, trajectory inference, and multi‑omics integration – all without writing a single line of code.
+scPyPortal is a full‑featured, interactive web application for single‑cell RNA‑seq (scRNA‑seq) and multi‑omics data analysis, built with Shiny for Python, Scanpy, Muon, and Plotly. It provides a point‑and‑click interface to perform quality control, clustering, differential expression, trajectory inference, and multi‑omics integration – all without writing a single line of code. Check out the ShinyApp at PositCloud: https://019efc87-c72a-2316-5ea9-d4a0f6f62b31.share.connect.posit.cloud/
 
 Table of Contents
 -----------------
@@ -95,7 +95,7 @@ Step‑by‑step:
    Note: Some packages (e.g., muon) may require additional system libraries.
    On Ubuntu: sudo apt-get install libhdf5-dev
 
-4. Run the app
+4. Run the app:
    shiny run app.py
 
    Open your browser at http://127.0.0.1:8000.
