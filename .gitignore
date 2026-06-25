@@ -29,10 +29,10 @@ temp/
 *.log
 
 # Datos grandes (opcional, pero recomendado)
-*.h5ad
-*.h5mu
-*.h5
-*.loom
+#*.h5ad
+#*.h5mu
+#*.h5
+#*.loom
 
 # Excel y Power
 *.xlsx
